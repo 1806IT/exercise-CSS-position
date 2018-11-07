@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+ol,li{list-style: none;}
+clearfix::after{
+  content:'';
+  display: none;
+  clear: both;
+}
+header{
+  width:750px;
+  height: 300px;
+  background: grey;
+
+}
+ol{
+  margin-left: -5px;
+  margin-right:-5px;
+
+}
+li{
+  float: left;
+  width:180px;
+  height: 50px;
+  background: green;
+  margin-top:20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,32 @@
+clearfix::after{
+  content: '';
+  display:block;
+  clear: both;
+}
+*{margin:0;padding: 0;}
+header{
+  background: grey;
+  height: 36px;
+  display:flex; 
+  justify-content:space-between;
+  text-align: center;
+}
+header div.logo{
+  width: 80px;
+  padding:11px 0;
+  line-height: 14px; 
+  background: green;
+}
+ol,li{
+  list-style:none;
+  display: flex;
+  text-align: center;
+}
+li{ 
+
+  width: 60px;
+  line-height:20px;
+  padding:8px 0;
+  background: white;
+  border: 1px solid red;
+}
